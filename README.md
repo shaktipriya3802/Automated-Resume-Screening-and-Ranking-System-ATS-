@@ -1,1 +1,8 @@
 # Automated-Resume-Screening-and-Ranking-System-ATS-
+### **Abstract**  
+
+The **AI Resume Screening & Candidate Ranking System** is a web-based application designed to automate and enhance the hiring process by efficiently ranking resumes based on job descriptions. Traditional resume screening is **time-consuming, prone to human bias, and inefficient for large-scale hiring**. This app leverages **Natural Language Processing (NLP) and Machine Learning (ML)** techniques, specifically **TF-IDF vectorization and Cosine Similarity**, to compare resumes against job descriptions and generate a ranked list of candidates based on relevance.  
+
+The system allows **recruiters to input job descriptions and upload multiple resumes (PDF format)**. It then extracts text from the resumes using **PyPDF2**, preprocesses the data using **NLTK**, and converts the text into numerical vectors using **TF-IDF**. Cosine Similarity is applied to measure the match between the job description and each resume, producing a **similarity score** that ranks the resumes accordingly. The ranked results are displayed in an interactive **Streamlit-based web application**, allowing recruiters to quickly identify the most suitable candidates.  
+
+The application significantly **reduces manual effort, minimizes bias, and improves hiring efficiency**. Future enhancements include **semantic matching using deep learning (BERT, GPT), multi-language support, bias detection mechanisms, and integration with applicant tracking systems (ATS)** for seamless recruitment. **This AI-powered solution ensures fair, fast, and accurate resume screening, transforming the traditional hiring workflow into a data-driven and automated process.**
